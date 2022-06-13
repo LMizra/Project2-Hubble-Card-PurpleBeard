@@ -1,0 +1,56 @@
+/* This is a universal selector for all that defaults the page for cross browser compatability*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Here we are targetting the body tag */
+body {
+  margin: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
+
+/* Targetting the 'card' class and mainly controlling the size */
+.card {
+  width: 350px;
+  margin: 15px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0 5px 12px 0 rgba(82, 82, 82, 0.5);
+}
+
+/* Targetting the img element and mainly controlling the size */
+img {
+  width: 350px;
+  height: 264px;
+  border-radius: 20px 20px 0 0;
+}
+
+/* Targetting the 'card-text' class and mainly controlling the height */
+.card-text {
+  height: 240px;
+  padding: 4px 30px 15px 30px;
+}
+
+/* Targetting the 'category' class and formatting the text */
+.category {
+  color: blue;
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+
+/* Targetting the 'h2' element and formatting the text */
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 7px 0px 0px 0px;
+  text-transform: capitalize;
+}
+
+/* Targetting the 'p' element and controlling the space */
+p {
+  margin-top: 10px;
+  color: rgb(63, 63, 63);
+}
